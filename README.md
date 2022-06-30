@@ -26,3 +26,19 @@ pip install matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple
 '''
 pip install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple
 '''
+
+#### imutils简介
+
+imutils是Adrian Rosebrock开发的一个python工具包，它整合了opencv、numpy和matplotlib的相关操作，主要是用来进行图形图像的处理，如图像的平移、旋转、缩放、骨架提取、显示等等，后期又加入了针对视频的处理，如摄像头、本地文件等。imutils同时支持python2和python3。
+安装imutils
+pip install imutils
+
+#### pytesseract
+pip install pytesseract
+
+tesseract dm2.jpeg stdout
+
+如果按照失败：
+cd /usr/local/Homebrew/Library/Taps/homebrew/
+rm -rf homebrew-core
+git clone https://github.com/Homebrew/homebrew-core.git
