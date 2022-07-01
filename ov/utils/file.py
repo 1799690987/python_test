@@ -5,7 +5,7 @@ import numpy as np
 
 def read_img():
     # 默认彩色读取
-    img2 = cv.imread('/Users/bytedance/PycharmProjects/python_test/ov/utils/c.png')
+    img2 = cv.imread(r'G:\python_work\python_test\ov\utils\c.png')
     return img2
 
 
