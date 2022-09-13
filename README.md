@@ -1,4 +1,6 @@
 # <no value>
+python2 -m pip install xxx
+
 pip freeze > requirements.txt
 ## 本地开发
 
